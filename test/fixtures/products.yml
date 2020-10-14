@@ -1,0 +1,14 @@
+lavender_heart:
+  product_code: '001'
+  name: 'Lavender heart'
+  price: 9.25
+
+cufflinks:
+  product_code: '002'
+  name: 'Personalized cufflinks'
+  price: 45.00
+
+tshirt:
+  product_code: '003'
+  name: 'Kids T-shirt'
+  price: 19.95
