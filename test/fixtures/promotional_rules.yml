@@ -1,0 +1,10 @@
+total_price:
+  discount_type: <%= PromotionalRule::DISCOUNT_TYPES[:percentage] %>
+  discount_amount: 0.9
+  price_amount: 60
+
+two_lavender_hearts:
+  product: lavender_heart
+  discount_type: <%= PromotionalRule::DISCOUNT_TYPES[:fixed_price] %>
+  discount_amount: 0.75
+  product_amount: 2
