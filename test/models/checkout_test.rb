@@ -14,11 +14,7 @@ class CheckoutTest < ActiveSupport::TestCase
       %w[001 002 001 003]
     ]
 
-    expected = [
-      66.78,
-      36.95,
-      73.76
-    ]
+    expected = [66.78, 36.95, 73.76]
 
     baskets.each_with_index do |basket, idx|
       @co = Checkout.new(promotional_rules)
@@ -36,3 +32,4 @@ class CheckoutTest < ActiveSupport::TestCase
     co.total
   end
 end
+
